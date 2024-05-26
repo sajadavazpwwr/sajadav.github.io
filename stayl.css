@@ -1,0 +1,181 @@
+@font-face {
+    font-family: rog;
+    src: url("/fonts/rog/RobotoSerif-Italic-VariableFont_GRAD\,opsz\,wdth\,wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1F1F1F;
+    font-family: rog;
+}
+hr{
+    margin: 0 auto;
+    border-color: #fffbfb;
+    width: 92%;
+    height: 0.5px;
+}
+i.fa{
+  color: lightseagreen;  
+}
+.pb100{
+    width: 100%;
+}
+.pb80{
+    width: 80%;
+}
+.pb60{
+    width: 60%;
+}
+.pb50{
+    width: 50%;
+}
+
+.pb40{
+    width: 40%;
+}
+
+.main{
+    width: 98%;
+    padding: 1%;
+    
+}
+.aside-left{
+    background-color: #303134;
+    width: 25%;
+ 
+    display: inline-block;
+    margin: 0.5;
+    vertical-align: top;
+    border-radius: 10px 10px 0 0;
+}
+.main-section{
+    width: 72%;
+    display: inline-block;
+    margin: 0.5;
+    vertical-align:top; 
+    margin-top: -0.4%;
+}
+.main-section section{
+    background-color: #303134;
+    margin: 0.5%;
+    padding: 10px;
+}
+/* profile */
+#profile{
+    position: relative;
+}
+#profile-image{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+ #my-name{
+    background-color: rgb(0, 0, 0,0.5);
+    color: #fff;
+    text-align: center;
+    font-size:20px;
+    padding: 2%;
+    position:absolute;
+    bottom: 3px;
+    left: 0;
+    width: 96%;
+}
+/* moshakhsat */
+#section-box{
+    padding: 5px;
+}
+#section-box ul{
+    list-style: none;
+}
+#section-box ul li{
+    color: lightseagreen;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#section-box ul li span{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: 10px;
+}
+#span-mil{
+    font-size: 10px !important; 
+}
+/* skille..language */
+.skills{
+    padding: 5px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+.item-skills{
+
+    margin-left: 10px;
+}
+.div{
+    margin-top:5px;
+}
+.div-box{
+    background-color: #eee;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.div-bar{
+    background-color: lightseagreen;
+    padding: 2px;
+    border-radius: 15px;
+   
+}
+
+.head-titile{
+    font-size: 32px;
+    margin-left:10px;
+}
+.ilem-titile{
+    margin-left: 5px;
+}
+.h4-titile{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.section-1{
+    color: #fff;
+}
+.section-1 article h2{
+    margin-left: 10px;
+}
+.section-1 article hr{
+    width: 98%;
+    margin-top: 10px;
+}
+.section-1 article b{
+    margin-left: 10px;
+}
+.span-item{
+    background-color: lightseagreen;
+    border-radius: 5px;
+    padding: 2px;
+}
+footer{
+    background-color: lightseagreen;
+    text-align: center;
+    color: #ffff;
+    width: 100%;
+    height: 20px;
+    padding: 20px 0;
+}
+footer a{
+    color: #ffff;
+}
+@media only screen and (max-width:768px) {
+    .aside-left{
+     display: block;
+     width: 99%;
+    }
+    .main-section{
+        display: block;
+        width: 99%;
+    }
+    
+}
