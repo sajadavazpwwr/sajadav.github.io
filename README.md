@@ -1,2 +1,0 @@
-# sajadav.github.io
-Resume
